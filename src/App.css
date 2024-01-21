@@ -1,0 +1,65 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://img.freepik.com/free-photo/library-with-books_1063-98.jpg?w=996&t=st=1705859624~exp=1705860224~hmac=42413bd80edd1a70f81d2c79073d6b10a0407a1eddc20119558128a1d122145a');
+  background-size: cover;
+  width: 100vw;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.forms-section,
+.lists-section {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .forms-section,
+  .lists-section {
+    width: 48%;
+  }
+}
+
+.form-container,
+.list-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #333;
+}
+
+button {
+  background-color: #333;
+  color: #161313;
+  padding: 10px 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

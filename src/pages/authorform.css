@@ -1,0 +1,20 @@
+label{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input{
+    width: 350px;
+    height:40px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 90px;
+}
